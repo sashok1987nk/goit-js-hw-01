@@ -1,4 +1,3 @@
-"use strict";
 
 function getElementWidth(content, padding, border) {
     let con = Number.parseFloat(content);
