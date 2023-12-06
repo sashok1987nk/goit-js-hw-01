@@ -1,7 +1,10 @@
 "use strict";
 
 function getElementWidth(content, padding, border) {
-    let n = content + (padding * 2) + (border * 2);
+    let con = Number.parseFloat(content);
+    let pad = Number.parseFloat(padding);
+    let bor = Number.parseFloat(border);
+    let n = con + (pad * 2) + (bor * 2);
     return `${n}`
 }
 
